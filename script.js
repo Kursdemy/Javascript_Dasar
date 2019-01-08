@@ -241,3 +241,54 @@ document.getElementById('heading').innerHTML = "Hello, World!"
 
 
 //*---------------------------------------------------------------*//
+
+
+//* Javascript Function *//
+
+//* Function adalah Aspek yang penting dalam Javascript dan bahasa programing yang lain .
+//* Block of Code, Untuk menjalankan task khusus dalam programing.
+//* Function akan tereksekusi apabila dipanggil (call).
+//* Function dibuat untuk mengurangi penulisan code secara berulang-ulang, mengembalikan return.
+
+//  DRY = Do not Repeat Your self;
+
+// Contoh penulisan function 
+
+// function xxx (argument) {
+//  .....    
+//}
+//xxx();
+
+// function yo() {
+//     console.log('Yo !!!!')
+// }
+// yo();
+
+// function yo(name) {
+//     console.log(name)
+// }
+// yo("Budi Saputra");
+
+// var name = "Brandon"
+// function yo() {
+//     console.log(name)
+// }
+// yo(name);
+
+// function yo(name, age) {
+//     console.log(name + " " + age)
+// }
+// yo("Budi", 22);
+// yo("Reni", 20);
+// yo("Ari", 18);
+
+
+function tambah(satu, dua) {
+    return satu + dua;
+}
+    console.log(tambah(5, 10));
+
+
+
+
+
