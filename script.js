@@ -198,5 +198,46 @@ document.getElementById('heading').innerHTML = "Hello, World!"
 // var z = "NaN";
 // alert(Boolean(z));
 
-prompt("What is Your Name");
+// var name = prompt("What is Your Name");
+// alert(name);
 
+
+//*---------------------------------------------------------------*//
+
+//* Switch Condition
+
+// var job = 'Trainer';
+// job = prompt('Apa profesi si Budi ?');
+
+// switch (job) {
+//     case 'Trainer':
+//         console.log('Budi adalah seorang Trainer');
+//         break;
+//     case 'Driver':
+//         console.log('Dyo bukan seorang Driver');
+//         break;
+//     case 'Polisi':
+//         console.log('Polisi itu mengejar Penjahat');
+//         break;
+//     default:
+//         console.log('Budi bukan Driver dan polisi');
+// }
+
+// var job = 'Penjahit';
+// switch (job) {
+//     case 'Trainer':
+//         console.log('Budi adalah Seorang Trainer');
+//         break;
+//     case 'Diver' :
+//         console.log('Budi bukan seorang Driver');
+//         break;
+//     case 'Polisi':
+//         console.log('Polisi itu mengejar penjahat');
+//         break;
+//     default :
+//         console.log('Budi Bukan Siapa - Siapa');
+// }
+
+
+
+//*---------------------------------------------------------------*//
