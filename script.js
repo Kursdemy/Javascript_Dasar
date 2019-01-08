@@ -103,5 +103,30 @@ document.getElementById('heading').innerHTML = "Hello, World!"
 
 // & | ~ ^ << >> >>>
 
+//* if else statement
 
+var name = "Brandon";
+var age = 16;
+var isYoung = "Yes";
 
+if (isYoung == 'No') {
+    console.log(name + " " + "Is Young man")
+} else {
+    console.log("I hope he mature soon")
+}
+
+var hour = 18 ;
+if (hour < 18) {
+    console.log('say yes!')
+} else {
+    console.log('say Nop !!')
+}
+
+var time = 20;
+if (time < 10) {
+    console.log("Say no way !!")
+} else if ( time <= 20 ) {
+    console.log("say maybe yes")
+} else {
+    console.log("Good on you !")
+}
