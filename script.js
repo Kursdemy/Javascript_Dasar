@@ -350,16 +350,16 @@ Statement dan Expression di dalam Javascript
 Javascript Arrays
 ---------------------------------------------------------------*/
 
-var name = "Budi";
-var lastname = "Saputra";
+// var name = "Budi";
+// var lastname = "Saputra";
 
-var names = ["Budi", "Saputra", 1996, "Developer"];
+// var names = ["Budi", "Saputra", 1996, "Developer"];
 
 /* cara akses sebuha array */
 
-console.log(names);
-console.log(names[0]);
-console.log(names[1]);
+// console.log(names);
+// console.log(names[0]);
+// console.log(names[1]);
 
 // /* mutation */
 // names[1] = "Gila";
@@ -378,3 +378,19 @@ console.log(names[1]);
 
 /* Shift */
 // names.shift();
+
+/*---------------------------------------------------------------
+Javascript Object
+---------------------------------------------------------------*/
+
+// var car = {
+//     color: "blue",
+//     year: 2018,
+//     drive: function(){return "drive"}
+// };
+
+// var shopList = [
+//     "Apple",
+//     "Orange",
+//     "Pear"
+// ];
