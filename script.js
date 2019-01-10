@@ -300,10 +300,81 @@ document.getElementById('heading').innerHTML = "Hello, World!"
 // var nama = yo('Budi', 22);
 // console.log(nama);
 
-function coba(a, b) {
-    return a + b ;
-}
-var cobi = coba("Budi",  " is Cool !");
-console.log(cobi);
-document.getElementById("element1").innerHTML = cobi;
-alert(cobi);
+// function coba(a, b) {
+//     return a + b ;
+// }
+// var cobi = coba("Budi",  " is Cool !");
+// console.log(cobi);
+// document.getElementById("element1").innerHTML = cobi;
+// alert(cobi);
+
+// Function dengan Condition if
+
+// function yo(name, age) {
+//     if (age > 35) {
+//         return name + ', not that old !';
+//     } else {
+//         return name + ', is still young ';
+//     }
+// }
+// var nama = yo('Budi', 22);
+// console.log(nama);
+
+// function coba(a, b) {
+//     return a + b;
+// }
+// var cobi = coba("Budi", " is cool ");
+// console.log(cobi);
+// document.getElementById("element1").innerHTML = cobi ;
+// alert(cobi);
+
+/*---------------------------------------------------------------
+Statement dan Expression di dalam Javascript
+---------------------------------------------------------------*/
+
+// Statement
+// function myfunc() {
+//     // code
+// }
+
+// Statement
+// if (x === 5) {
+//     // do something here
+// }
+
+/* Expression */
+// 3 + 4 ;
+// var x = 3;
+
+/*---------------------------------------------------------------
+Javascript Arrays
+---------------------------------------------------------------*/
+
+var name = "Budi";
+var lastname = "Saputra";
+
+var names = ["Budi", "Saputra", 1996, "Developer"];
+
+/* cara akses sebuha array */
+
+console.log(names);
+console.log(names[0]);
+console.log(names[1]);
+
+// /* mutation */
+// names[1] = "Gila";
+// console.log(names);
+
+// /* push */
+// names.push("Setres");
+// console.log(names[4]);
+
+// /* Unshift */
+// names.unshift("Mr");
+// console.log(names);
+
+/* pop */
+// names.pop();
+
+/* Shift */
+// names.shift();
