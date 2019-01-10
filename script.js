@@ -283,12 +283,27 @@ document.getElementById('heading').innerHTML = "Hello, World!"
 // yo("Ari", 18);
 
 
-function tambah(satu, dua) {
-    return satu + dua;
+// function tambah(satu, dua) {
+//     return satu + dua;
+// }
+//     console.log(tambah(5, 10));
+
+// Function dengan Condition if
+
+// function yo(name, age) {
+//     if (age > 35) {
+//         return name + ', not that old';
+//     } else {
+//         return name + ', is still young';
+//     }
+// }
+// var nama = yo('Budi', 22);
+// console.log(nama);
+
+function coba(a, b) {
+    return a + b ;
 }
-    console.log(tambah(5, 10));
-
-
-
-
-
+var cobi = coba("Budi",  " is Cool !");
+console.log(cobi);
+document.getElementById("element1").innerHTML = cobi;
+alert(cobi);
