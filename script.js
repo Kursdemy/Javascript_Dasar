@@ -399,26 +399,58 @@ Javascript Object
 Menyisipkan Array dan Object
 ---------------------------------------------------------------*/
 
-var car = {
-    made: "Honda",
-    speed: 160,
-    enggine: {
-        size: 2.5,
-        made: "Daihatsu",
-        fuel: "Pertamax",
-        piston: [
-            "2018",
-            {make: "China"},
-            {make: ""}
-        ],
-    },
-    drive: function(){ return "drive";}
-};
+// var car = {
+//     made: "Honda",
+//     speed: 160,
+//     enggine: {
+//         size: 2.5,
+//         made: "Daihatsu",
+//         fuel: "Pertamax",
+//         piston: [
+//             "2018",
+//             {make: "China"},
+//             {make: ""}
+//         ],
+//     },
+//     drive: function(){ return "drive";}
+// };
 
-var array = [
-    "String",
-    1000,
-    [true, 100],
-    {name: "Budi"},
-    function() { return "drive";}
-];
+// var array = [
+//     "String",
+//     1000,
+//     [true, 100],
+//     {name: "Budi"},
+//     function() { return "drive";}
+// ];
+
+/*---------------------------------------------------------------
+Mengakses Array dan Object
+---------------------------------------------------------------*/
+
+// var car = {
+//     made: "Honda",
+//     speed: 160,
+//     enggine: {
+//         size: 2.5,
+//         made: "Daihatsu",
+//         fuel: "Pertamax",
+//         piston: [
+//             "2018",
+//             {make: "China"},
+//             {make: ""}
+//         ],
+//     },
+//     drive: function(){ return "drive";}
+// };
+
+// var array = [
+//     "String",
+//     1000,
+//     [true, 100],
+//     {name: "Budi"},
+//     function() { return "drive";}
+// ];
+
+// console.log(car);
+// console.log(car.made);
+// console.log(car.enggine);
