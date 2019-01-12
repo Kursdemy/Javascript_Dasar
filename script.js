@@ -427,35 +427,184 @@ Menyisipkan Array dan Object
 Mengakses Array dan Object
 ---------------------------------------------------------------*/
 
-var car = {
-    made: "Honda",
-    speed: 160,
-    engine: {
-        size: 2.5,
-        made: "Daihatsu",
-        fuel: "Pertamax",
-        piston: [
-            "2018",
-            {make: "China"},
-            {make: ""}
-        ],
-    },
-    drive: function(){ return "drive";}
-};
+// var car = {
+//     made: "Honda",
+//     speed: 160,
+//     engine: {
+//         size: 2.5,
+//         made: "Daihatsu",
+//         fuel: "Pertamax",
+//         piston: [
+//             "2018",
+//             {make: "China"},
+//             {make: ""}
+//         ],
+//     },
+//     drive: function(){ return "drive";}
+// };
 
-var array = [
-    "String",
-    1000,
-    [true, 100],
-    {name: "Budi"},
-    function() { return "drive";}
-];
+// var array = [
+//     "String",
+//     1000,
+//     [true, 100],
+//     {name: "Budi"},
+//     function() { return "drive";}
+// ];
 
-console.log(car);
-console.log(car.made);
-console.log(car.enggine);
+// console.log(car);
+// console.log(car.made);
+// console.log(car.enggine);
 
 /*---------------------------------------------------------------
 Create , Asign & Delete member Array dan Object
 ---------------------------------------------------------------*/
 
+// var car = {
+//     made: "Honda",
+//     speed: 160,
+//     engine: {
+//         size: 2.5,
+//         made: "Daihatsu",
+//         fuel: "Pertamax",
+//         piston: [
+//             "2018",
+//             {make: "China"},
+//             {make: ""}
+//         ],
+//     },
+//     drive: function(){ return "drive";}
+// };
+
+// var array = [
+//     "String",
+//     1000,
+//     [true, 100],
+//     {name: "Budi"},
+//     function() { return "drive";}
+// ];
+
+// console.log(car);
+// console.log(car.made);
+// console.log(car.enggine);
+
+/*---------------------------------------------------------------
+Modifikasi Array
+---------------------------------------------------------------*/
+
+// var array = [
+//     "String",
+//     1000,
+//     [true, 100],
+//     {name: "Budi"},
+//     function() { return "drive";}
+// ];
+
+// array
+// (5) ["String", 1000, Array(2), {…}, ƒ]
+// array[0]
+// "String"
+// array[1]
+// 1000
+// array[2]
+// (2) [true, 100]
+// array[0] = "Strong" 
+// "Strong"
+// array
+// (5) ["Strong", 1000, Array(2), {…}, ƒ]
+// array[1] = "Seribu"
+// "Seribu"
+// array
+// (5) ["Strong", "Seribu", Array(2), {…}, ƒ]
+
+/* Prebuilt Method */
+
+// ** Shift --> Menghapus Element pertama Array
+
+// array
+// (5) ["String", 1000, Array(2), {…}, ƒ]
+// array.shift
+// ƒ shift() { [native code] }
+// array.shift()
+// "String"
+// array
+// (4) [1000, Array(2), {…}, ƒ]
+
+// **  pop --> untuk menghapus element terakhir pada array 
+
+// array
+// (5) ["String", 1000, Array(2), {…}, ƒ]
+// 0: "String"
+// 1: 1000
+// 2: (2) [true, 100]
+// 3: {name: "Budi"}
+// length: 4
+// __proto__: Array(0)
+// array.pop()
+// ƒ () { return "drive";}
+// array
+// (4) ["String", 1000, Array(2), {…}]
+// 0: "String"
+// 1: 1000
+// 2: (2) [true, 100]
+// 3: {name: "Budi"}
+// length: 4
+// __proto__: Array(0)
+
+// ** unshift --> Menambahkan element pertama pada Array
+
+// array
+// (5) ["String", 1000, Array(2), {…}, ƒ]
+// 0: "String"
+// 1: 1000
+// 2: (2) [true, 100]
+// 3: {name: "Budi"}
+// 4: ƒ ()
+// length: 5
+// __proto__: Array(0)
+// array.unshift("function" , "tambah baru")
+// 7
+// array
+// (7) ["function", "tambah baru", "String", 1000, Array(2), {…}, ƒ]
+// 0: "function"
+// 1: "tambah baru"
+// 2: "String"
+// 3: 1000
+// 4: (2) [true, 100]
+// 5: {name: "Budi"}
+// 6: ƒ ()
+// length: 7
+// __proto__: Array(0)
+
+// ** push --> Menambahkan element pada urutan akhir Array
+
+// array
+// (5) ["String", 1000, Array(2), {…}, ƒ]
+// array.push("car", 70)
+// 7
+// array
+// (7) ["String", 1000, Array(2), {…}, ƒ, "car", 70]
+
+// ** splice() menambahkan , mengurangi
+
+// 1.Menghapus element
+// array.splice(2,2);
+// 2 ---> menghapus element mulai dari index ke 2
+// 2 ---> jumlah element yang akan di hapus start dari index ke 2
+
+// 2.Menambah element diantara element yang ada 
+//array.splice(1, 0, "Hello", "World", 2018)
+// 1 ---> menambah element mulai dari index ke 1
+// 0 ---> jumlah element yang akan dihapus.
+// "Hello", "World", 2018 ---> Element yang ditambahkan
+
+// 3.Merubah dan menghapus Element Array
+
+array = [
+    "Selamat",
+    "Pagi",
+    900,
+    true,
+    12.5
+]
+
+array.splice(2,2, 2018, "Budi")
