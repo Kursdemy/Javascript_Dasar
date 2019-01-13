@@ -599,12 +599,107 @@ Modifikasi Array
 
 // 3.Merubah dan menghapus Element Array
 
-array = [
-    "Selamat",
-    "Pagi",
-    900,
-    true,
-    12.5
+// array = [
+//     "Selamat",
+//     "Pagi",
+//     900,
+//     true,
+//     12.5
+// ]
+
+// array.splice(2,2, 2018, "Budi")
+
+/*---------------------------------------------------------------
+Javascript Loops
+---------------------------------------------------------------*/
+
+// loops adalah pengulangan ( iteration )
+
+// loop sangat penting dalam sebuah programing karena menghemat waktu dan tenaga , ketimbang menulis program ber ulang ulang untuk sebuah task tertentu , lebih baik membuat kode instruktur pengulangan (Metode loop), sehingga program akan melakukan tugas berulang-ulang hingga syarat yang diinginkan seorang program terpenuhi.Metode
+
+// contoh : kita ingin menuliskan number 0 hingga 10 , dibandingkan kita menulis manual:
+
+// 1
+// 2
+// 3
+// ...
+
+// kita gunakan for loop 
+
+// for (var i){
+
+// }
+
+// kita ingin mencetak pengulangan mulai dari 0,maka
+
+// for (var i=0;){
+
+// }
+
+// jika i lebih kecil dari 11 , maka terus tambahkan secara otomatis i tersebut hingga 1 < 11 , yakni 10,
+
+// for (var i=0; i < 11; i++){
+
+// }
+
+// ---> Pinsip Start , kondisi , Aksi tambah / kurang
+
+// tampilkan lah hasilnya di console:
+
+// for (var i=0; i < 11; i++){
+//     console.log(i)
+// }
+
+// Keterangan hasilnya 
+// i=0 ---> start dari 0
+// i=1 ---> i<11 ---> i++
+// i=2 ---> i<11 ---> i++ dst
+// i++ --> Penambahan 
+// Artinya : 
+// i = 1 + 1
+
+// var i;
+// for (i=0; i < 11; i++){
+//     console.log(i)
+// }
+
+var family = [
+    "Ayah",
+    "Ibu",
+    "Kakak",
+    "Adik",
+    "Nenek"
 ]
 
-array.splice(2,2, 2018, "Budi")
+// var i;
+// for (i=0; i < family.length; i++){
+//     console.log(family[i]);
+// }
+
+// var i;
+// for (i = family.length-1; i >= 0;  i--) {
+//     console.log(family[i]);
+// }
+
+/* Javascipt while loops */
+
+// var i = 0 ;
+// while (i < family.length){
+//     console.log(family[i]);
+//     i++;
+// }
+
+// for (var i=1; i<=10; i++) {
+//     console.log(i);
+
+//     if (i === 3) {
+//         break;
+//     }
+// }
+
+// for (var i = 1; i <= 10; i++){
+//     if (i === 3){
+//         continue;
+//     }
+//     console.log(i);
+// }
