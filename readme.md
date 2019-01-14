@@ -106,3 +106,7 @@ function Motor(){ return object: }
 - Gunakan variable invoke untuk menyimpan new object tsb.
 - Dengan demikian anda bisa memulai membuat instance baru dengan berbeda value , instance (baca mengcopy).
 - Tampilkan pada console.
+
+## DOM
+### Document Object Model
+

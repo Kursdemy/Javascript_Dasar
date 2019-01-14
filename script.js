@@ -1,6 +1,6 @@
 // console.log("Hello World !!")
 
-document.getElementById('heading').innerHTML = "Hello, World!"
+// document.getElementById('heading').innerHTML = "Hello, World!"
 
 //*---------------------------------------------------------------*//
 
@@ -710,13 +710,14 @@ Javascript Loops
 Function constructor 
 ---------------------------------------------------------------*/
 
-function Car (nama, tahun, x, y) {
-    this.nama = nama;
-    this.tahun = tahun;
-    this.x = x;
-    this.y = y;
-}
+// function Car (nama, tahun, x, y) {
+//     this.nama = nama;
+//     this.tahun = tahun;
+//     this.x = x;
+//     this.y = y;
+// }
 
-var car1 = new Car("Honda", 2010, 20, 5);
-var car2 = new Car("Suzuki", 2011, 25, 10);
-var car3 = new Car("Toyota", 2012, 30, 15);
+// var car1 = new Car("Honda", 2010, 20, 5);
+// var car2 = new Car("Suzuki", 2011, 25, 10);
+// var car3 = new Car("Toyota", 2012, 30, 15);
+
